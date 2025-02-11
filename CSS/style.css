@@ -1,0 +1,860 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+::selection {
+    background: rgb(9, 132, 132);
+    color: white;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+/* body.dark{
+    background-color: #1f1f1f;
+    color: white;
+} */
+#mainpage{
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: olive; */
+    /* height: 100%; */
+}
+#page1{
+    width: 100%;
+    /* height: 600px; */
+    /* position: relative; */
+    height: 100%;
+    /* background-color: teal; */
+    /* border-bottom: 1px solid #000; */
+}
+#navbar{
+    width: 100%;
+    position: sticky;
+    background-color: #fff;
+    z-index: 9;
+    /* position: fixed; */
+    top: 0;
+    overflow: hidden;
+    /* height: ; */
+    display: flex;
+    height: 80px;
+    /* align-items: center; */
+    /* background-color: oldlace; */
+    /* margin-bottom: 20px; */
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+#navbar #logo{
+    width: 10%;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar #logo img{
+    width: 100px;
+    height: 90px;
+    /* background-color: red; */
+    padding: 10px;
+}
+#navbar #logo a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#navbar #navSection2{
+    width: 30%;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar #navSection2 a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background-color: #E21A41;
+    */margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+#navbar #navSection2 a:hover{
+    border: 1px solid #E21A41;
+    border-bottom: 5px solid #E21A41;
+}
+#navbar #navSection3{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background: red; */
+    align-items: center;
+}
+#navbar #navSection3 a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.1s ease;
+    /*font-size: 20px;
+    */-webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+    padding: 8px;
+    -webkit-transition: 0.1s ease;
+}
+#navbar #navSection3 a:hover{
+    /* background-color: #333; */
+    background-color: #fc7691;
+    border-bottom:5px solid #E21A41 ;
+}
+#navbar #navSection3 a i{
+    font-size: 20px;
+    font-weight: 200;
+}
+#mainSec{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* background-color:peru; */
+}
+#mainSec #leftSec{
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 140px;
+}
+#leftSec h3{
+    font-family: 'Shadows Into Light';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+}
+
+#leftSec p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#leftSec p i{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#rightSec{
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+#rightSec img{
+    height: 400px;
+}
+
+#preventiveLine{
+    background-color: #121212;
+    width: 120%;
+    height: 70px;
+    rotate: -5deg;
+    margin-top: -20px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+#preventiveLine p{
+    color: white;
+    font-size: 22px;
+    padding-left: 0%;
+}
+
+.about {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.card {
+    text-align: center;
+    padding: 2rem;
+    margin-right: 20px;
+    /* background-color: #f5f5f5; */
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    transform: rotate(-1deg);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02) rotate(0deg);
+}
+
+.card img {
+    max-height: 60px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+/*  X  */
+  /* Optional doodle star in hero */
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background: url('https://via.placeholder.com/60x60?text=★') no-repeat center/cover;
+    transform: rotate(-15deg);
+  }
+
+  #ExtraDivs{
+    margin-top: 150px;
+  }
+  /* POLAROID-STYLE CONTAINER (reusable) */
+  .polaroid {
+    position: relative;
+    /* margin-top: 100px; */
+    background: #fff;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+    transform: rotate(-1.5deg);
+  }
+  .polaroid .inner-content {
+    transform: rotate(1.5deg); /* rotate content back so it's readable */
+  }
+  /* Optional scribble in top-right corner */
+  .polaroid::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 50px;
+    height: 50px;
+    background: url('https://via.placeholder.com/50x50?text=★') no-repeat center/cover;
+    transform: rotate(20deg);
+  }
+
+  /* ABOUT SNIPPET */
+  .about-snippet h2 {
+    margin-bottom: 1rem;
+    font-family: "Cedarville Cursive";
+    font-size: 1.8rem;
+  }
+  .about-snippet p {
+    margin-bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .about-snippet a:hover{
+    background-color: teal;
+  }
+  .about-snippet a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  /* SKILLS SNIPPET */
+  .skills-snippet {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .skills-snippet h2 {
+    margin-bottom: 1rem;
+    font-family: "Cedarville cursive";
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .skill-item {
+    /* background: #eee; */
+    border: 2px solid #000;
+    padding: 1rem;
+    min-width: 120px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .skill-item:hover {
+    transform: scale(1.05);
+    border: 2px solid teal;
+    box-shadow: 4px 4px 0 teal;
+  }
+
+  /* PROJECTS SNIPPET */
+  .projects-snippet h2 {
+    margin-bottom: 1rem;
+    font-family: "Cedarville cursive";
+  }
+  .projects-snippet h3{
+    font-family: "Shadows into light";
+  }
+  .projects-snippet p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .project-card {
+    border: 2px solid #000;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 4px 4px 0 #000;
+    transition: transform 0.3s;
+  }
+  .project-card:hover {
+    transform: translate(-4px, -4px);
+  }
+  .projects-snippet p a{
+    color: black;
+  }
+  .projects-snippet p a:hover{
+    background-color:  teal;
+  }
+
+ 
+  /* TESTIMONIALS SNIPPET */
+  .testimonials-snippet h2 {
+    margin-bottom: 1rem;
+    font-family: "Cedarville cursive";
+  }
+  .testimonial-box {
+    /* font-family: "Shadows into light"; */
+    font-style: italic;
+    /* background: #fafafa; */
+    padding: 1rem;
+    border: 2px dashed #000;
+  }
+
+  /* FUN FACTS SNIPPET */
+  .funfacts-snippet h2 {
+    margin-bottom: 1rem;
+    font-family: "Cedarville cursive";
+  }
+  .funfacts-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .funfact-card {
+    /* background: #ddd; */
+    padding: 1rem;
+    border: 2px solid #E21A41;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 4px 4px 0 #E21A41;
+  }
+  .funfact-card h3{
+    font-family: "Cedarville Cursive";
+  }
+  .funfact-card p{
+    font-family: "Shadows into light";
+  }
+
+  /* CTA SNIPPET */
+  .cta-snippet {
+    text-align: center;
+  }
+  .cta-snippet h2{
+    font-family: "Cedarville cursive";
+  }
+  .cta-snippet p{
+    font-family: "Shadows into light";
+    font-size: 19px;
+  }
+  .cta-snippet a {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  .cta-snippet a:hover {
+    scale: 1.1;
+    box-shadow: 3px 3px 0 teal;
+    border: 2px solid teal;
+    background: #fff;
+    color: #000;
+  }
+
+
+
+
+  #footSec{
+    background-color: rgb(18, 18, 18);
+    /* margin-right: 10%; */
+    padding-bottom: 80px;
+}
+#footSec #footCon{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+#footSec #footCon #thanksNote{
+    width: 50%;
+    height: fit-content;
+    margin-top: 50px;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+#footSec #footCon #thanksNote p{
+    /* padding-right: 10px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(234, 234, 234);
+}
+#footSec #footCon #thanksNote p span{
+    font-family: "Cedarville cursive";
+    font-size: 18px;
+    color: teal;
+}
+#footSec #footCon #links{
+    width: 50%;
+    /* height: fit-content; */
+    /* display: flex; */
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footSec #footCon #links #leftLinks{
+    /* width: 90%; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+}
+#footSec #footCon #links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    color: teal;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+}
+#footSec #footCon #links #rightLinks{
+     display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+#footSec #footCon #links a:hover{
+    border: 1px solid #E21A41;
+    border-bottom: 5px solid #E21A41;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  RESPONSIVENESS */
+
+/* Base responsive adjustments */
+@media screen and (max-width: 1200px) {
+  #navbar #navSection2 {
+    width: 40%;
+  }
+  
+  #navbar #navSection3 {
+    width: 30%;
+  }
+  
+  #mainSec #leftSec {
+    padding-left: 80px;
+  }
+  
+  #leftSec h3 {
+    font-size: 50px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+  #mainSec #rightSec {
+    display: none;
+  }
+  
+  #navbar #logo img{
+    display: none;
+  }
+
+  #navbar #logo {
+    width: 100%;
+    /* padding-left: 20px; */
+    justify-content: center;
+    padding: 0;
+  }
+  
+  #navbar #navSection2 {
+    width: 60%;
+    margin: 10px auto;
+  }
+  
+  #navbar #navSection2 a {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  #navbar #navSection3 {
+    width: 80%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  #navbar #navSection3 a {
+    padding: 8px 12px;
+  }
+  
+  #mainSec {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #mainSec #leftSec {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #navbar #navSection2 {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #navbar #navSection2 a {
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  #navbar #navSection3 {
+    width: 90%;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  #navbar #navSection3 a {
+    padding: 6px 10px;
+  }
+  
+  #navbar #navSection3 a i {
+    font-size: 18px;
+  }
+  
+  /* Hide image on smaller screens */
+  #mainSec #rightSec {
+    display: none;
+  }
+  
+  #leftSec h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  
+  #leftSec p {
+    font-size: 18px;
+  }
+  
+  #preventiveLine {
+    height: auto;
+    padding: 12px 0;
+  }
+  
+  #preventiveLine p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  #preventiveLine p i {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  
+  .about {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  
+  .card {
+    margin: 1rem 0;
+    padding: 1.5rem;
+  }
+  
+  .card h3 {
+    font-size: 1.3rem;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+  }
+  
+  .polaroid {
+    margin: 1.5rem 1rem;
+    padding: 1.5rem;
+  }
+  
+  .about-snippet h2,
+  .skills-snippet h2,
+  .projects-snippet h2,
+  .testimonials-snippet h2,
+  .funfacts-snippet h2,
+  .cta-snippet h2 {
+    font-size: 1.6rem;
+  }
+  
+  .about-snippet p,
+  .projects-snippet p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #navbar {
+    padding: 5px 0;
+  }
+  
+  #navbar #logo img {
+    width: 70px;
+    height: 60px;
+  }
+  
+  #navbar #navSection2 a {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  
+  #navbar #navSection3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  #navbar #navSection3 a {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #navbar #navSection3 a i {
+    font-size: 16px;
+  }
+  
+  #leftSec h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+  
+  #leftSec p {
+    font-size: 16px;
+  }
+  
+  #preventiveLine {
+    padding: 10px 0;
+  }
+  
+  #preventiveLine p {
+    font-size: 14px;
+  }
+  
+  .skill-item {
+    min-width: 90px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .testimonial-box {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+  
+  .funfact-card {
+    margin: 0.4rem 0;
+  }
+  
+  .funfact-card h3 {
+    font-size: 1.3rem;
+  }
+  
+  .funfact-card p {
+    font-size: 0.9rem;
+  }
+  
+  .cta-snippet a {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  #footSec #footCon {
+    width: 95%;
+  }
+
+  #footSec #footCon #thanksNote p {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  
+  #footSec #footCon #thanksNote p span {
+    font-size: 12px;
+  }
+  
+  #footSec #footCon #links {
+    margin-left: -30px;
+    margin-top: 10px; /* Reduced from 30px */
+  }
+  
+  #footSec #footCon #links #leftLinks,
+  #footSec #footCon #links #rightLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Added specific margin */
+  }
+
+  #footSec #footCon #links #leftLinks {
+    margin-bottom: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links #rightLinks {
+    margin-top: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links a {
+    padding: 8px;
+    font-size: 8px;
+  }
+}
+
+/* Fix for very small screens */
+@media screen and (max-width: 320px) {
+  #navbar #navSection2 a {
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+  
+  #navbar #navSection3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  #leftSec h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  #leftSec p {
+    font-size: 14px;
+  }
+  
+  #preventiveLine p {
+    font-size: 12px;
+  }
+  
+  .polaroid {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    padding: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .card p {
+    font-size: 0.8rem;
+  }
+  
+  .about-snippet h2,
+  .skills-snippet h2,
+  .projects-snippet h2,
+  .testimonials-snippet h2,
+  .funfacts-snippet h2,
+  .cta-snippet h2 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DynaPuff:wght@400..700&display=swap');
+
+::selection {
+    background: rgb(9, 132, 132);
+    color: white;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#aboutSec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: flex;
+}
+#aboutleft{
+    width: 42%;
+    height: fit-content;
+    overflow: hidden;
+    top: 80px;
+    position: sticky;
+}
+#aboutleft img{
+    width: 1000px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+#aboutRight{
+    width: 58%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 30px;
+}
+#aboutRight #Right1{
+    padding-bottom: 10px;
+    width: 80%;
+    height: fit-content;
+}
+#aboutRight #Right1 h3{
+    text-align: left;
+    font-family: "CedarVille cursive";
+    font-size: 45px;
+    border-bottom:  2px solid teal;
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+#aboutRight #Right1 p{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#aboutRight #Right1 p span{
+    font-family: "Cedarville cursive";
+    font-size: 22px;
+    font-weight: 600;
+}
+#aboutRight #Right2{
+    width: 80%;
+    margin-bottom: 20px;
+}
+#aboutRight #Right2 h3{
+    text-align: left;
+    font-family: "CedarVille cursive";
+    font-size: 45px;
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-bottom:  2px solid teal;
+    margin-top: 3%;
+    font-weight: 300;
+}
+#aboutRight #Right2 #Right2Det{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#aboutRight #Right2 #Right2Det #Right2Left,
+#aboutRight #Right2 #Right2Det #Right2Right{
+    width: 40%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+#aboutRight #Right2 #Right2Det #Right2Left p,
+#aboutRight #Right2 #Right2Det #Right2Right p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px solid #fdc0cc;
+}
+#aboutRight #Right2 #Right2Det #Right2Left p span,
+#aboutRight #Right2 #Right2Det #Right2Right p span{
+    font-family: "Cedarville cursive";
+    font-size: 20px;
+    font-weight: 600;
+}
+#aboutRight #Right2 #Right2Det #Right2Left p a{
+    text-decoration: none;
+    color: teal;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+#aboutRight #Right2 #Right2Det #Right2Left p a:hover{
+    background-color: #fc7691;
+    border-bottom: 2px solid #E21A41;
+}
+#Right2 #Right2btn{
+    margin-left: 20px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#Right2 #Right2btn a{
+    font-family: "Cedarville cursive";
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: teal;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#Right2 #Right2btn:hover{
+    background-color: #fc7691;
+    border-bottom: 4px solid #E21A41;
+    /* scale: 0.9; */
+}
+
+
+#aboutRight #Right3,
+#Rightx{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#aboutRight #Right3 h3,
+#Rightx h3{
+    text-align: left;
+    font-family: "CedarVille cursive";
+    font-size: 45px;
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-bottom:  2px solid teal;
+    margin-top: 3%;
+    font-weight: 300;
+}
+#aboutRight #Right3 #skills{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+#aboutRight #Right3 #skills #skillLeft{
+    width: 50%;
+}
+#aboutRight #Right3 #skills #skillRight{
+    width: 50%;
+}
+#aboutRight #Right3 #skills #skillLeft p,
+#aboutRight #Right3 #skills #skillRight p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+#aboutRight #Right3 #skills #skillLeft p i,
+#aboutRight #Right3 #skills #skillRight p i{
+    font-size: 15px;
+}
+#aboutRight #Right4{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#aboutRight #Right4 h3{
+    text-align: left;
+    font-family: "CedarVille cursive";
+    font-size: 35px;
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-bottom:  2px solid teal;
+    margin-top: 3%;
+    font-weight: 300;
+}
+#aboutRight #Right4 #degree,
+#Rightx #experi{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+#aboutRight #Right4 #degree h4,
+#Rightx #experi h4{
+    font-size: 25px;
+    font-family: "Cedarville cursive";
+}
+#aboutRight #Right4 #degree p,
+#Rightx #experi p{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-bottom: 18px;
+    margin-left: 40px;
+}
+#aboutRight #Right4 #degree p span{
+    font-family: "Cedarville cursive";
+    font-size: 22px;
+    font-weight: 600;
+}
+#aboutRight #Right4 #degree p span:hover{
+    background-color: #fc7691;
+    border-bottom: 3px solid #E21A41;
+}
+
+
+#aboutRight #Right5{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* background-color: palevioletred; */
+    /* display: flex; */
+}
+#aboutRight #Right5 h3{
+    text-align: left;
+    font-family: "CedarVille cursive";
+    font-size: 35px;
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-bottom:  2px solid teal;
+    margin-top: 3%;
+    font-weight: 300;
+}
+#aboutRight #Right5 #certs {
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#aboutRight #Right5 #certs h4{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutRight #Right5 #certs h4 span{
+    font-family: "Cedarville cursive";
+    font-size: 22px;
+    font-weight: 600;
+}
+#aboutRight #Right5 #certs h4 span:hover{
+    background-color: #fc7691;
+    border-bottom: 3px solid #E21A41;
+}
+#footSec{
+    background-color: rgb(18, 18, 18);
+    /* margin-right: 10%; */
+    padding-bottom: 80px;
+}
+#footSec #footCon{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+#footSec #footCon #thanksNote{
+    width: 50%;
+    height: fit-content;
+    margin-top: 50px;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+#footSec #footCon #thanksNote p{
+    /* padding-right: 10px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(234, 234, 234);
+}
+#footSec #footCon #thanksNote p span{
+    font-family: "Cedarville cursive";
+    font-size: 18px;
+    color: teal;
+}
+#footSec #footCon #links{
+    width: 50%;
+    /* height: fit-content; */
+    /* display: flex; */
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footSec #footCon #links #leftLinks{
+    /* width: 90%; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+}
+#footSec #footCon #links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    color: teal;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+}
+#footSec #footCon #links #rightLinks{
+     display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+#footSec #footCon #links a:hover{
+    border: 1px solid #E21A41;
+    border-bottom: 5px solid #E21A41;
+}
+
+
+
+
+
+
+/*  RESPONSIVENESS */
+/* Preserve existing imports */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DynaPuff:wght@400..700&display=swap');
+
+/* Large screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+  #aboutSec {
+    /* flex-direction: column; */
+    padding: 20px 0;
+  }
+  
+  #aboutleft {
+    width: 60%;
+    /* position: sticky; */
+    /* top: 0; */
+    /* margin-bottom: 30px; */
+  }
+  
+  #aboutleft img {
+    width: 180%;
+    position: sticky;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  #aboutRight {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Medium screens (up to 992px) */
+@media screen and (max-width: 992px) {
+  #aboutleft {
+    display: none; /* Hide image on medium screens and below */
+  }
+  
+  #aboutRight {
+    width: 95%;
+    padding-top: 10px;
+  }
+  
+  #aboutRight #Right1,
+  #aboutRight #Right2,
+  #aboutRight #Right3,
+  #aboutRight #Right4,
+  #aboutRight #Right5,
+  #Rightx {
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  #aboutRight #Right1 h3,
+  #aboutRight #Right2 h3,
+  #aboutRight #Right3 h3,
+  #Rightx h3 {
+    font-size: 36px;
+    margin-left: 10px;
+  }
+  
+  #aboutRight #Right4 h3,
+  #aboutRight #Right5 h3 {
+    font-size: 30px;
+  }
+  
+  #aboutRight #Right1 p span,
+  #aboutRight #Right2 #Right2Det span {
+    font-size: 20px;
+  }
+}
+
+/* Tablet screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  #aboutRight #Right1 h3,
+  #aboutRight #Right2 h3,
+  #aboutRight #Right3 h3,
+  #Rightx h3 {
+    font-size: 28px;
+  }
+  
+  #aboutRight #Right4 h3,
+  #aboutRight #Right5 h3 {
+    font-size: 24px;
+  }
+  
+  #aboutRight #Right1 p {
+    font-size: 14px;
+  }
+  
+  #aboutRight #Right1 p span,
+  #aboutRight #Right2 #Right2Det span {
+    font-size: 18px;
+  }
+  
+  #aboutRight #Right3 #skills {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #aboutRight #Right3 #skills #skillLeft,
+  #aboutRight #Right3 #skills #skillRight {
+    width: 100%;
+  }
+  
+  #aboutRight #Right3 #skills #skillLeft p,
+  #aboutRight #Right3 #skills #skillRight p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  #aboutRight #Right4 #degree h4,
+  #Rightx #experi h4 {
+    font-size: 20px;
+  }
+  
+  #aboutRight #Right4 #degree p,
+  #Rightx #experi p {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  #footSec #footCon {
+    width: 95%;
+  }
+
+  #footSec #footCon #thanksNote p {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  #footSec #footCon #thanksNote p span {
+    font-size: 15px;
+  }
+  
+  #footSec #footCon #links {
+    margin-left: -30px;
+    margin-top: 10px; /* Reduced from 30px */
+  }
+  
+  #footSec #footCon #links #leftLinks,
+  #footSec #footCon #links #rightLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Added specific margin */
+  }
+
+  #footSec #footCon #links #leftLinks {
+    margin-bottom: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links #rightLinks {
+    margin-top: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links a {
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
+/* Mobile screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  #navbar{
+    position: relative;
+  }
+  #aboutRight {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #aboutRight #Right1 h3,
+  #aboutRight #Right2 h3,
+  #aboutRight #Right3 h3,
+  #Rightx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #aboutRight #Right4 h3,
+  #aboutRight #Right5 h3 {
+    font-size: 22px;
+  }
+  
+  #aboutRight #Right1 p {
+    font-size: 12px;
+    padding-left: 5px;
+    line-height: 1.4;
+  }
+  
+  #aboutRight #Right1 p span,
+  #aboutRight #Right2 #Right2Det span {
+    font-size: 14px;
+  }
+  
+  #aboutRight #Right2 #Right2Det {
+    padding-left: 3px;
+  }
+  
+  #aboutRight #Right2 #Right2Det #Right2Left p,
+  #aboutRight #Right2 #Right2Det #Right2Right p {
+    font-size: 11px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+  }
+  #aboutRight #Right2 #Right2Det #Right2Left p span,
+  #aboutRight #Right2 #Right2Det #Right2Right p span{
+    font-size: 14px;
+  }
+  
+  #aboutRight #Right3 #skills #skillLeft p,
+  #aboutRight #Right3 #skills #skillRight p {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  
+  #aboutRight #Right4 #degree h4,
+  #Rightx #experi h4 {
+    font-size: 18px;
+  }
+  
+  #aboutRight #Right4 #degree p,
+  #Rightx #experi p {
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 1.4;
+  }
+  
+  #aboutRight #Right5 #certs h4 {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+  
+  #aboutRight #Right5 #certs h4 span {
+    font-size: 15px;
+  }
+  #footSec #footCon {
+    width: 95%;
+  }
+
+  #footSec #footCon #thanksNote p {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  
+  #footSec #footCon #thanksNote p span {
+    font-size: 12px;
+  }
+  
+  #footSec #footCon #links {
+    margin-left: -30px;
+    margin-top: 10px; /* Reduced from 30px */
+  }
+  
+  #footSec #footCon #links #leftLinks,
+  #footSec #footCon #links #rightLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Added specific margin */
+  }
+
+  #footSec #footCon #links #leftLinks {
+    margin-bottom: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links #rightLinks {
+    margin-top: 10px; /* Reduced space between link sections */
+  }
+  
+  #footSec #footCon #links a {
+    padding: 8px;
+    font-size: 8px;
+  }
+}
+
+/* Very small screens (up to 320px) */
+@media screen and (max-width: 320px) {
+  #aboutRight #Right1 h3,
+  #aboutRight #Right2 h3,
+  #aboutRight #Right3 h3,
+  #Rightx h3 {
+    font-size: 22px;
+  }
+  
+  #aboutRight #Right4 h3,
+  #aboutRight #Right5 h3 {
+    font-size: 20px;
+  }
+  
+  #aboutRight #Right1 p {
+    font-size: 12px;
+  }
+  
+  #aboutRight #Right1 p span,
+  #aboutRight #Right2 #Right2Det span {
+    font-size: 14px;
+  }
+  
+  #aboutRight #Right2 #Right2Det #Right2Left p,
+  #aboutRight #Right2 #Right2Det #Right2Right p {
+    font-size: 12px;
+  }
+  
+  #aboutRight #Right3 #skills #skillLeft p,
+  #aboutRight #Right3 #skills #skillRight p {
+    font-size: 12px;
+  }
+  
+  #aboutRight #Right4 #degree h4,
+  #Rightx #experi h4 {
+    font-size: 16px;
+  }
+  
+  #aboutRight #Right4 #degree p,
+  #Rightx #experi p {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  #aboutRight #Right5 #certs h4 {
+    font-size: 12px;
+  }
+  
+  #aboutRight #Right5 #certs h4 span {
+    font-size: 14px;
+  }
+}
+
+/* Smooth transitions */
+#aboutSec,
+#aboutRight,
+#aboutRight div {
+  transition: all 0.3s ease;
+}
