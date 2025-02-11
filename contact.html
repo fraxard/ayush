@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+      integrity="sha512-T7lIYojLrqj7eBrV1NvUSZplDBi8mFyIEGFGdox8Bic92Col3GVrscbJkL37AJoDmF2iAh81fRpO4XZukI6kbA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Me !</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo">
+        <a href="index.html" draggable="false">
+          <img
+            src="Images/Beige_Black_Bold_Minimalist_Brand_Signature_Logo__1_-removebg-preview.png"
+            alt=""
+            draggable="false"
+        /></a>
+      </div>
+      <div id="navSection2">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div id="navSection3">
+        <a href="#"><i class="ri-chat-2-fill"></i></a>
+        <a href="#"><i class="ri-facebook-line"></i></a>
+        <a href="https://www.instagram.com/@ayxshhz"
+          ><i class="ri-instagram-line"></i
+        ></a>
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+        <a href="#"><i class="ri-linkedin-line"></i></a>
+        <a href="#"><i class="ri-mail-line"></i></a>
+        <a href="https://fraxard.github.io/portfolio"
+          ><i class="ri-earth-fill"></i
+        ></a>
+      </div>
+    </div>
+    
+    <section class="contact-section">
+      <div class="contact-intro">
+        <h2>Contact Me</h2>
+        <p>
+          I’d love to hear from you! Whether you have a project in mind, 
+          want to collaborate, or just say hi, feel free to drop a message.
+        </p>
+      </div>
+  
+      <!-- Polaroid / Card-like Container -->
+      <div class="polaroid-container">
+        <div class="scribbles-decor">
+          <i class="ri-sparkling-2-line"></i>
+        </div> <!-- Optional scribbles or star image -->
+        <form class="contact-form" action="https://formspree.io/f/mjkgrjjv" method="POST" >
+          <!-- action="https://api.web3forms.com/submit" -->
+
+          <input type="hidden" name="access_key" value="01bc6af9-7906-4e6a-bd78-bf4e32cd8c2f">
+
+          <label for="name"><p>Name</p></label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+  
+          <label for="email"><p>Email</p></label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+  
+          <label for="subject"><p>Subject</p></label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required />
+  
+          <label for="message"><p>Message</p></label>
+          <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+  
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>© 2025 Ayush Kushwaha. All Rights Reserved.</p>
+    </footer>
+    
+    
+  </body>
+</html>
